@@ -6,9 +6,13 @@ import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 
+import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { HammerModule } from '@angular/platform-browser';
 
 @NgModule({
   imports: [
+    PdfViewerModule,
+    HammerModule,
     CommonModule,
     FormsModule,
     IonicModule,
