@@ -1,0 +1,7 @@
+{
+  "name": "pdfzoomtest",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
